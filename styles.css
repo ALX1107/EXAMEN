@@ -1,0 +1,52 @@
+.letras {
+   box-sizing: border-box;
+   font-family:Verdana;
+   display: flex;
+   justify-content:flex-end ;
+   align-items: flex-start;
+   color:rgb(255, 255, 254);
+   padding:0px 10px;
+   border-spacing: 10px;
+}
+
+.img{
+   display: flex;
+   justify-content: flex-start; /* Alineación horizontal a la derecha */
+   align-items: center; /* Alineación vertical centrada */
+   padding:40px 30px; 
+   padding-left: 40px;
+}
+.imagen2{
+   display: flex;
+   justify-content:flex-start ;
+   align-items: center;
+   padding: 0px 40px;
+}
+.banner {
+   background-image: url("../img/tms.jpg");
+   background-size: cover;
+   background-repeat: no-repeat;
+   background-attachment: fixed;
+   height: 100vh;
+}
+.sb{
+   color:rgb(255, 255, 254);
+   padding:10px;
+   padding-left: 40px;
+
+}
+.p{
+   color: rgb(255, 255, 254);
+   padding-left: 40px;
+}
+.t2{
+   box-sizing: border-box;
+   font-family:Verdana;
+   display: flex;
+   color:rgb(255, 255, 254);
+   padding-left:40px;
+   
+}
+.ll{
+   background-color: red;
+}
